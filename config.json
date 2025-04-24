@@ -1,0 +1,54 @@
+{
+    "ENABLE_WEB_SERVER": "False",
+    "WEB_SERVER_PORT": "5000",
+    "DB_PATH": "autopinner.db",
+    "LOG_LEVEL": "INFO",
+    "AUTO_START": "False",
+    "CHECK_UPDATES": "True",
+    "BACKUP_ENABLED": "True",
+    "BACKUP_INTERVAL": "24",
+    "database": {
+        "url": "sqlite:///app.db",
+        "pool_size": 5,
+        "max_overflow": 10,
+        "pool_timeout": 30,
+        "pool_recycle": 1800
+    },
+    "wordpress_sites": [],
+    "pinterest": {
+        "access_token": "",
+        "email": "",
+        "password": "",
+        "default_board": "AutoPinner",
+        "avoid_spam": {
+            "min_interval": 300,
+            "max_pins_per_day": 50,
+            "random_delay": true
+        }
+    },
+    "content_generation": {
+        "seo_settings": {
+            "min_keyword_density": 1.0,
+            "max_keyword_density": 3.0,
+            "title_length": 60,
+            "meta_description_length": 160,
+            "heading_structure": true,
+            "internal_linking": true,
+            "image_alt_text": true
+        },
+        "image_generation": {
+            "provider": "leonardo",
+            "style": "realistic",
+            "quality": "high",
+            "free_tier": true,
+            "max_images_per_day": 10
+        }
+    },
+    "automation": {
+        "interval": 60,
+        "max_retries": 3,
+        "timeout": 300,
+        "log_level": "INFO",
+        "debug_mode": false
+    }
+}

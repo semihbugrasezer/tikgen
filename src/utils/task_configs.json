@@ -1,0 +1,90 @@
+{
+  "generate_content": {
+    "name": "generate_content",
+    "description": "Generate content using AI",
+    "dependencies": [],
+    "schedule": {
+      "monday": true,
+      "wednesday": true,
+      "friday": true
+    },
+    "retry_count": 3,
+    "timeout": 300,
+    "enabled": true,
+    "last_run": "2025-04-25T00:42:29.374886",
+    "next_run": null,
+    "success_count": 1,
+    "failure_count": 0,
+    "total_runtime": 8.296966552734375e-05
+  },
+  "publish_to_wordpress": {
+    "name": "publish_to_wordpress",
+    "description": "Publish content to WordPress",
+    "dependencies": [
+      "generate_content"
+    ],
+    "schedule": {
+      "tuesday": true,
+      "thursday": true
+    },
+    "retry_count": 3,
+    "timeout": 300,
+    "enabled": true,
+    "last_run": null,
+    "next_run": null,
+    "success_count": 0,
+    "failure_count": 0,
+    "total_runtime": 0
+  },
+  "share_on_pinterest": {
+    "name": "share_on_pinterest",
+    "description": "Share content on Pinterest",
+    "dependencies": [
+      "generate_content"
+    ],
+    "schedule": {
+      "tuesday": true,
+      "thursday": true
+    },
+    "retry_count": 3,
+    "timeout": 300,
+    "enabled": true,
+    "last_run": null,
+    "next_run": null,
+    "success_count": 0,
+    "failure_count": 0,
+    "total_runtime": 0
+  },
+  "analyze_trends": {
+    "name": "analyze_trends",
+    "description": "Analyze Pinterest trends",
+    "dependencies": [],
+    "schedule": {
+      "monday": true
+    },
+    "retry_count": 3,
+    "timeout": 300,
+    "enabled": true,
+    "last_run": null,
+    "next_run": null,
+    "success_count": 0,
+    "failure_count": 0,
+    "total_runtime": 0
+  },
+  "collect_stats": {
+    "name": "collect_stats",
+    "description": "Collect performance statistics",
+    "dependencies": [],
+    "schedule": {
+      "friday": true
+    },
+    "retry_count": 3,
+    "timeout": 300,
+    "enabled": true,
+    "last_run": "2025-04-25T00:42:29.374660",
+    "next_run": null,
+    "success_count": 1,
+    "failure_count": 0,
+    "total_runtime": 0.00021696090698242188
+  }
+}
