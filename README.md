@@ -312,7 +312,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
   Made with ❤️ by Semih Bugra Sezer
   
-  [![GitHub Stars](https://img.shields.io/github/stars/yourusername/tikgen?style=social)](https://github.com/yourusername/tikgen/stargazers)
+  [![GitHub Stars](https://img.shields.io/github/stars/semihbugrasezer/tikgen?style=social)](https://github.com/semihbugrasezer/tikgen/stargazers)
   [![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/yourusername)
 </div>
 
